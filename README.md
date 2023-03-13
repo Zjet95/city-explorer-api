@@ -1,6 +1,6 @@
 # city-explorer-api
 
-**Author**: Michael Dulin
+**Author**: Zachariah T. Jeter
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
@@ -13,7 +13,7 @@ A search query to find city information
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
 ## Change Log
-Trello Board: https://trello.com/b/palFaa9P/city-explorer-project
+[Trello Board] <https://trello.com/b/palFaa9P/city-explorer-project>
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
