@@ -7,7 +7,7 @@ require('dotenv').config();
 //const data = require("./data/weather.json");
 const cors = require('cors');
 const getWeather = require('./modules/weather');
-const getMovies = require('./modules.movies');
+const getMovies = require('./modules/movies');
 const app = express();
 //** MIDDLEWARE */
 //** cors is used as a security guard that allows us to share resources across the internet. */
@@ -31,7 +31,7 @@ app.get('*', (req, res) => {
   res.send('The resource does not exist');
 });
 
-app.use((error, request, response) => {
+app.use((error, request, response,) => {
   response.status(404).send(error.message);
 });
 
